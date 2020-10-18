@@ -1,0 +1,15 @@
+1. P， R, F1 score,  map的计算参考 YOLO v4: https://github.com/WongKinYiu/PyTorch_YOLOv4
+
+2.关于 P-R curve, mAP， heatmap的计算参考 YOLO v4: https://github.com/argusswift/YOLOv4-pytorch
+
+package name: detmetric
+
+method:
+
+1. xml2json (xml label file convert to json file)
+2. detcivar ( compute Confidence Interval and variance of the mean of the metric like precision, recall, or F1 score)
+3. detprecision ( compute precison metric)
+4. det recall (compute recall metric)
+5.detprcurve ( plot P-R curve like the toy data of VOC)
+6.detmap ( compute the COCO AP of 0.5 to 0.95 by 0.05 of the thread of IoU)
+7.detheapmap ( plot the heatmap of the predict of the feature)
