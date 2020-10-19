@@ -1,6 +1,8 @@
-from  detcivar import *
+# from  detcivar import *
 
-x = DetStatic()
-help(x.detcivar)
+# x = detcivar()
+# help(x.detcivar)
+
+import DetStatic
 
 

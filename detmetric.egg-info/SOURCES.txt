@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+detcivar.py
+setup.py
+detmetric.egg-info/PKG-INFO
+detmetric.egg-info/SOURCES.txt
+detmetric.egg-info/dependency_links.txt
+detmetric.egg-info/requires.txt
+detmetric.egg-info/top_level.txt
